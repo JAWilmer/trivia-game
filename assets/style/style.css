@@ -5,9 +5,10 @@ light grey = #E4E4E4
  */
 
 body{
-	background: url("../images/52d51e81a5cbc09614afd6eb8920779d.jpg");
+	background-image: url("../images/52d51e81a5cbc09614afd6eb8920779d.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 100%; 
 }
 
 .container {
@@ -19,6 +20,7 @@ body{
 	font-family: 'EB Garamond', serif; 	
 	font-size: 25px;
 	color: white;
+	height: 100%; 
 }
 
 header {
@@ -104,8 +106,8 @@ header {
 
 .jpgPage {
 	background-color:#333237;
-	margin: 0 auto;
 	padding: 3% 9% 9% 9%;
+	margin: 0 4% 4% 4%;
 	align-items: center;
 }
 
