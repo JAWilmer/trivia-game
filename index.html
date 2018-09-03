@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Unusual Presidential Trivia</title>
+    <link rel="reset" href="assets/style/reset.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Tangerine" rel="stylesheet">
+</head>
+
+<body>
+    <div class='container'>
+        <header>
+            <p>Presidential Trivia: The Odd & Unusual</p>
+            <img src="assets/images/f9d77f4f98448d60f11b4a96792b5869cropped.png" alt="line with stars" class="responsive" style="width: 80%">
+        </header>
+
+        <!--Instructions and start button  -->
+        <div id="instructionsPage">
+            <img src="assets/images/800px-Signing_of_Declaration_of_Independence_by_Armand-Dumaresq,_c1873_-_restored.jpg" alt="Signing of the Declaration of Independence"
+                class="responsive">
+            <p class="text-left" style="font-size: 15px;" style="color:#7D7C7F"><a href="https://commons.wikimedia.org/wiki/File:Signing_of_Declaration_of_Independence_by_Armand-Dumaresq,_c1873_-_restored.jpg"
+                    target="_blank" style="color:#7D7C7F">Image: Wiki Commons</a></p>
+            <div class="text">
+                <p>Who was our shortest leader? Which president kept pet racoons? Who started his day with a skinny dip in
+                    the Potomac?
+                </p>
+                <br>
+                <h2>Find out how well you know your Commanders in Chief!</h2>
+            </div>
+            <button class='btn btn-primary' id='startBtn'><h3>Start</h3></button>
+        </div>
+
+
+        <!-- Question page -->
+        <div class="questionPage">
+            <div id='timeRemaining'></div>
+            <div id=currentQuestion></div>
+            <div id="questionHolder">
+                <h2>
+                    <div class='question'></div>
+                </h2>
+                <img src="assets/images/f9d77f4f98448d60f11b4a96792b5869croppedarctic.png" alt="line with stars" style="margin: 2%" class="responsive">
+                <div class='answerList'></div>
+            </div>
+        </div>
+
+        <!-- Answer Page -->
+        <div class="answerPage">
+            <div class="correctAnswer">
+                <h2>
+                    <div id="message"></div>
+                </h2>
+                <div id="correctedAnswer"></div>
+            </div>
+            <!-- Answer images display here -->
+            <div class="jpgPage">
+                <div id="moreInfo"></div>
+                <div id="jpg"></div>
+                <div id="jpgCredit"></div>
+
+            </div>
+        </div>
+
+        <!-- Scoreboard -->
+        <div class="scoreboard">
+            <h2>
+                <div id=finalMessage></div>
+            </h2>
+            <img src="assets/images/f9d77f4f98448d60f11b4a96792b5869croppedslate.png" alt="line with stars" style="margin: 2%" class="responsive">
+            <div id=correctAnswers></div>
+            <div id=incorrectAnswers></div>
+            <div id=unanswered></div>
+            <button class='btn btn-primary' id='startOverBtn'><h3>Start Over?</h3></button>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/script/script.js"></script>
+
+</body>
+
+</html>
