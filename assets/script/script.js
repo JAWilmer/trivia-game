@@ -267,7 +267,7 @@ function answerPage(){
 
 	let rightAnswerText = triviaQuestions[currentQuestion].answerList[triviaQuestions[currentQuestion].answer];
 	let rightAnswerIndex = triviaQuestions[currentQuestion].answer;
-	$('#jpg').html('<img src = "assets/images/'+ jpgArray[currentQuestion] +'.jpg" class="responsive">');  
+	$('#jpg').html('<img src = "assets/images/'+ jpgArray[currentQuestion] +'.jpg" style="max-width: 100%;	height: auto; max-height: 85vh">');  
 	$('#jpgCredit').html(creditArray[currentQuestion]);
 	$('#moreInfo').html(moreInfoArray[currentQuestion]);
 
