@@ -1,1 +1,136 @@
+/* COLOR CODES
+dark grey = #333237
+medium grey = #7D7C7F
+light grey = #E4E4E4
+ */
+
+body{
+	background: url("../images/52d51e81a5cbc09614afd6eb8920779d.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	background-color:#7D7C7F;
+	border-radius: 5px; 
+	margin: 40px;
+	padding: 40px;
+	text-align: center;
+	font-family: 'EB Garamond', serif; 	
+	font-size: 25px;
+	color: white;
+}
+
+header {
+	font-family: 'Tangerine', cursive;
+	color: #333237;
+	font-weight: bold;
+	text-align: center;
+	font-size: 65px;
+	padding: 0;
+	margin: 0 2% 0 2%;
+}
+
+#instructionsPage {
+	background-color:darkred;
+	padding: 4%;
+	margin: 0 4% 4% 4%;
+	align-items: center;
+}
+
+.text-left {
+	color: #7D7C7F;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+	padding: 0% 9% 3% 9%;
+}
+
+.questionPage {
+	margin: 0;
+	padding: 0;
+}
+
+#startBtn{
+	background-color: #19264C;
+	border-color: #19264C;
+	border-radius: 5px; 
+	width: 25%;	
+}
+
+#timeRemaining {
+	background-color:darkred;
+	padding: 3%;
+	margin: 0 5% 0 5%;
+	border-radius: 5px; 
+	width: 35%;	
+	display: inline-flex;
+	align-items: center;
+}
+
+#currentQuestion {
+	background-color:darkred;
+	padding: 3%;
+	margin: 0 5% 0 5%;
+	border-radius: 5px; 
+	width: 35%;	
+	display: inline-flex;
+	align-items: center;
+}
+
+#questionHolder {
+	clear: both;
+	background-color: #19264C;
+	padding: 5% 10% 5% 10%;
+	margin: 5%;
+	border-radius: 5px; 
+}
+
+.thisChoice:hover{
+	background-color:#7D7C7F;
+	border-radius: 5px;
+}
+
+.correctAnswer {
+	background-color: #19264C;
+	padding: 4%;
+	margin: 0 4% 4% 4%;
+}
+
+.jpgPage {
+	background-color:#333237;
+	margin: 0 auto;
+	padding: 3% 9% 9% 9%;
+	align-items: center;
+}
+
+#moreInfo {
+	margin: 4%;
+}
+
+#jpgCredit {
+	float: left;
+	font-size: 15px;
+	color:#7D7C7F;
+}
+.scoreboard {
+	background-color: darkred;
+	padding: 5% 10% 5% 10%;
+	margin: 5%;
+	border-radius: 5px; 
+	align-items: center;
+}
+
+#startOverBtn{
+	background-color: #19264C;
+	border-color: #19264C;
+	border-radius: 5px; 
+	width: 25%;	
+	margin-top: 3%;
+}
 
