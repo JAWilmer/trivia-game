@@ -90,7 +90,7 @@ let triviaQuestions = [{
 	answer: 3
 },{
 	// 11
-	question: "This president was the first sitting president to ride in an automobile, airplane, and submarine.  He is a Nobel Peace Prize recipient, war hero and explorer.  With his son Kermit and a team of Brazilian surveyors, this president explored and mapped the previously unmapped Rio da Dúvida (River of Doubt).  The river know bears his name.",
+	question: "This president was the first sitting president to ride in an automobile, airplane, and submarine.  He is a Nobel Peace Prize recipient, war hero and explorer.  With his son Kermit and a team of Brazilian surveyors, this president explored and mapped the previously unmapped Rio da Dúvida (River of Doubt).  The river now bears his name.",
 	answerList: 
 		["William McKinley (1897-1901)",
 		"Theodore Roosevelt (1901-1909)",
