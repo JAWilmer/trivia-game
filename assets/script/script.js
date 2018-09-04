@@ -242,7 +242,7 @@ function newQuestion(){
 // TIMER FUNCTIONS
 //sets timer to count down
 function countdown(){
-	secondsLeft = 15;
+	secondsLeft = 20;
 	$('#timeRemaining').html('Time Remaining: ' + secondsLeft);
 	answered = true;
 	timeInterval = setInterval(showCountdown, 1000);
